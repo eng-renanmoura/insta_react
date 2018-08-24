@@ -37,9 +37,9 @@ class FotoInfo extends Component {
                     return (<Link key={liker.login} href={`/timeline/${liker.login}`}>{liker.login},</Link>)
                   })
                 }
-
+                 
                  curtiram
-
+             
               </div>
 
               <p className="foto-info-legenda">
@@ -82,7 +82,7 @@ class FotoHeader extends Component {
     }
 }
 
-export default class Foto extends Component {
+export default class FotoItem extends Component {
     render(){
         return (
           <div className="foto">
